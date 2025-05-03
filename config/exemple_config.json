@@ -1,0 +1,9 @@
+{
+  "fichier_entree": "data/entree.txt",
+  "fichier_sortie": "data/sortie.txt",
+  "filtres": [
+    { "nom": "FiltreTexteMajuscules", "parametres": {} },
+    { "nom": "MotsInterdits", "parametres": { "mots": ["TEST", "HELLO"] } },
+    { "nom": "ChiffrementCesar", "parametres": { "decalage": 3 } }
+  ]
+}
