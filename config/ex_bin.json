@@ -1,0 +1,9 @@
+{
+  "fichier_entree": "data/entree.bin",
+  "fichier_sortie": "data/sortie.bin",
+  "filtres": [
+    { "nom": "FiltreBinaireInverse", "parametres": {} },
+    { "nom": "InversionOctets", "parametres": {} },
+    { "nom": "XOR", "parametres": {} }
+  ]
+}
